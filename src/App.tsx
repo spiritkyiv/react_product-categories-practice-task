@@ -59,6 +59,9 @@ export const App: React.FC = () => {
               <a
                 data-cy="FilterAllUsers"
                 href="#/"
+                onClick={
+                  () => setUsersFilter(0)
+                }
               >
                 All
               </a>
